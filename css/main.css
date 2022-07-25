@@ -1,0 +1,123 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background: #74f9fe;
+    font-family: "Fredoka";
+}
+
+.hero__top {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.btn {
+    max-width: 180px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn__1 {
+    border: 2px solid;
+}
+
+.btn__2 {
+    border: 2px solid;
+}
+
+.btn__3 {
+    border: 2px solid;
+}
+
+.btn__4 {
+    max-width: 120px;
+    width: 100%;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.btn__clean {
+    border: 2px solid;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.logo {
+    height: 200px;
+}
+
+.pokemons-logo {
+    display: none;
+    max-width: 500px;
+    width: 100%;
+    height: 200px;
+}
+
+.movies-logo {
+    display: none;
+    max-width: 300px;
+    width: 100%;  
+    height: 300px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 250px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: all .75s;
+    overflow: hidden;
+}
+
+.list__item:hover {
+    transform: scale(1.1);
+}
+
+.item_title {
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+
+    font-weight: normal;
+}
